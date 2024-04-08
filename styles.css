@@ -1,0 +1,466 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-bgd {
+    width: 1440px;
+    height: 812px;
+    background-image: url("/assets/main-img.png");
+    background-size: 100%;
+    background-position: center;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+.header-logo {
+    width: 344px;
+    height: 79px;
+    background-color: #0B0232;
+    border-bottom-right-radius: 60px;
+}
+.logo-img {
+    width: 167px;
+    height: 50px;
+    padding-left: 100px;
+    padding-top: 17px;
+}
+.header-link {
+    width: 949px;
+    height: 46px;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+    /*margin-left: 381px;*/
+    gap: 21px;
+}
+.link-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 21px;
+}
+.link-item {
+    font-family: ' Cormorant', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.17px;
+    color: #0B0232;
+    text-transform: uppercase;
+
+}
+.account-list {
+    width: 207px;
+    height: 46px;
+    gap: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+.account-item {
+    width: 141px;
+    height: auto;
+    font-family: ' Cormorant', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.17px;
+    color: #0B0232;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4px 3px 4px 3px;
+}
+.account-item:hover {
+    /*width: 100px;*/
+    /*height: 46px;*/
+    border-radius: 200px;
+    border: 1px solid #0B0232;
+}
+.main-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    /*justify-content: space-between;*/
+}
+.main-title {
+    position: relative;
+    margin-top: 50px;
+    z-index: -1;
+}
+.hearts {
+    position: relative;
+    left: 285px;
+    top: -80px;
+    z-index: -1;
+}
+.main-text {
+    font-family: 'Wedding Vintage', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 55.86px;
+    color: #412058;
+    padding-left: 60px;
+}
+.main-form {
+    width: 353px;
+    height: 659px;
+    margin-top: 46px;
+}
+.registration {
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #0B0232;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 33px;
+}
+.user-data {
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22.5px;
+    color: #0B0232;
+    margin-bottom: 10px;
+}
+.user-input {
+    width: 353px;
+    height: 48px;
+    border-radius: 200px;
+    border: 1px solid #0B0232;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+.select {
+    width: 363px;
+}
+.form-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    width: 352px;
+    height: 56px;
+    margin-bottom: 28px;
+    margin-top: 15px;
+}
+.form-btn {
+    width: 205px;
+    height: 55px;
+    border-radius: 200px;
+    color: #FDFEFF;
+    background-color: #412058;
+}
+.form-content {
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #0B0232;
+    text-align: center;
+    width: 350px;
+    height: 46px;
+    opacity: 60%;
+}
+.ladies-content {
+    width: 393px;
+    height: 130px;
+    margin-bottom: 19px;
+}
+.ladies-title {
+    opacity: 5%;
+    font-family: 'Edwardian Script ITC', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+    font-style: italic;
+    linear-gradient(#50366A 11%, #50366A 100%);
+}
+.ladies-text {
+    /*width: 263px;*/
+    /*height: 78px;*/
+    position: relative;
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 78px;
+    color: #0B0232;
+    top: -70px;
+    left: 40px;
+    z-index: 4;
+}
+
+.photo {
+    width: 301px;
+    height: 448px;
+}
+
+.img-heart {
+    position: relative;
+    z-index: 4;
+    top: 80px;
+    left: 230px;
+}
+.img-name {
+    position: relative;
+    z-index: 4;
+    top: -40px;
+    width: 301px;
+    height: 29px;
+    text-align: center;
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28.6px;
+    /*color: #0B0232;*/
+    color: #FDFEFF;
+}
+.img-icons {
+    display: none;
+}
+
+.slider-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 93.96px;
+}
+
+.slider {
+    width: 1283px;
+    overflow: hidden;
+
+}
+
+.slider__btn-prev,
+.slider__btn-next {
+    position: absolute;
+    top: 50%;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.slider__btn-prev {
+    left: -15px;
+}
+
+.slider__btn-next {
+    right: -15px;
+    transform: rotate(180deg);
+}
+
+.slider-line {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.photo {
+    width: 301px;
+    /*height: auto;*/
+    margin-right: 20px;
+}
+
+.slider-line {
+    display: flex;
+    transition: transform 3s ease;
+}
+.communication-container {
+    /*width: 100%;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 100.95px;
+}
+.footer-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 82px;
+    background-color: #0B0232;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.subscribe {
+    width: 342px;
+    height: 28px;
+    gap: 12px;
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FDFEFF;
+    padding-left: 100px;
+    margin-right: 70px;
+}
+.subscribe > img {
+    padding-left: 20px;
+}
+.partner {
+    width: 205px;
+    height: 46px;
+    gap: 76px;
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18.17px;
+    color: #FDFEFF;
+    padding-top: 30px;
+    /*padding-left: 100px;*/
+}
+.footer-input {
+    width: 437px;
+    height: 54px;
+    border-radius: 200px;
+    padding-left: 40px;
+    background-color: #0B0232;
+    border: 1px solid #FDFEFF;
+    color: #FDFEFF;
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18.17px;
+
+}
+.footer-btn {
+    width: 122px;
+    height: 46px;
+    background: #FDFEFF;
+    align-items: center;
+    justify-content: center;
+    color: #0B0232;
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18.17px;
+    border-radius: 200px;
+    position: relative;
+    z-index: 2;
+    left: -180px;
+}
+.footer-icons {
+    /*width: 100%;*/
+    /*height: 70px;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*gap: 145px;*/
+    justify-content: space-between;
+    padding-left: 100px;
+    /*margin-left: 50px;*/
+    /*gap: 200px;*/
+    margin-bottom: 42px;
+}
+.footer-content > p {
+    width: 340px;
+    height: 56px;
+    opacity: 60%;
+    font-family: 'Wedding Vintage', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 55.86px;
+    color: #412058;
+    text-align: center;
+
+}
+.footer-logo {
+    width: 360px;
+    height: 70px;
+    align-items: center;
+    /*padding-left: 145px;*/
+}
+.footer-logo img {
+    padding-top: 20px;
+    width: 56px;
+    height: 56px;
+}
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 264px;
+    height: 45px;
+    gap: 20px;
+    /*padding-left: 235px;*/
+}
+.footer-btn {
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.95px;
+    color: #412058;
+    width: 137px;
+    height: 45px;
+}
+.footer-btn:hover {
+    border-radius: 200px;
+    border: 1px solid #0B0232;
+}
+.footer-title {
+    /*width: 1306px;*/
+    height: 19px;
+    text-align: center;
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.38px;
+    color: #0B0232;
+    margin-bottom: 87px;
+}
+.footer-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+.logo img {
+    width: 42px;
+    height: 42px;
+}
+.logo,
+.cards {
+    width: 104px;
+    height: 42px;
+    gap: 20px;
+    opacity: 80%;
+}
+.years {
+    /*width: 171px;*/
+    height: 16px;
+    opacity: 70%;
+    text-align: center;
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.74px;
+    color: #0B0232;
+}
