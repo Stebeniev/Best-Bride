@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const sliderLine = document.querySelector('.slider-line');
   const prevBtn = document.querySelector('.slider__btn-prev');
   const nextBtn = document.querySelector('.slider__btn-next');
-  const photoWidth = document.querySelector('.photo').offsetWidth + 20; // Width + margin-right
+  const photoWidth = document.querySelector('.photo').offsetWidth + 5; // Width + margin-right
 
   let slideIndex = 0;
 
