@@ -7,6 +7,7 @@
     scroll-behavior: smooth;
 }
 body {
+    margin: 0;
     /*max-width: 1440px;*/
     display: flex;
     justify-content: center;
@@ -288,11 +289,11 @@ header {
 }
 
 .slider__btn-prev {
-    left: 30px;
+    left: -40px;
 }
 
 .slider__btn-next {
-    right: 20px;
+    right: -40px;
     transform: rotate(180deg);
 }
 
@@ -396,7 +397,7 @@ header {
     border-radius: 200px;
     position: relative;
     z-index: 2;
-    left: -150px;
+    left: -143px;
     cursor: pointer;
 
 }
