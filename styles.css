@@ -335,7 +335,7 @@ header {
 }
 
 .slider__btn-next {
-    right: -40px;
+    right: -50px;
     transform: rotate(180deg);
 }
 
