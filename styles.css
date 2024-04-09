@@ -271,7 +271,7 @@ header {
     height: 448px;
 }
 
-.img-heart {
+.yellow-heart {
     position: relative;
     z-index: 4;
     top: 88px;
@@ -294,7 +294,20 @@ header {
     color: #FDFEFF;
 }
 .img-icons {
-    display: none;
+    /*display: none;*/
+    position: relative;
+    z-index: 4;
+    top: -80px;
+    left: 125px;
+    width: 100px;
+    /*height: 29px;*/
+    /*text-align: center;*/
+    /*font-family: 'Cormorant', sans-serif;*/
+    /*font-weight: 500;*/
+    /*font-size: 22px;*/
+    /*line-height: 28.6px;*/
+    /*color: #0B0232;*/
+    color: #FDFEFF;
 }
 
 /*.slider-container {*/
@@ -635,3 +648,75 @@ header {
     line-height: 15.74px;
     color: #0B0232;
 }
+#fSVGID:hover rect {
+    fill: #0B0232;
+}
+#fSVGID:hover path {
+    fill: white;
+}
+#gSVGID:hover rect {
+    fill: #0B0232;
+}
+
+#gSVGID:hover path {
+    fill: white;
+}
+.communication-container img,
+.footer-logo img,
+.logo img,
+.cards img {
+    transition: transform 0.3s ease;
+}
+
+.communication-container img:hover,
+.footer-logo img:hover,
+.logo img:hover,
+.cards img:hover {
+    transform: translateY(-5px) scale(1.05);
+}
+.yellow-heart:hover {
+    fill: yellow; /* Изменение цвета на желтый */
+}
+.img-container:hover .img-icons {
+    display: block;
+    transition: opacity 0.5s ease;
+}
+
+/* Плавное исчезновение img-name */
+.img-container:hover .img-name {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+/*.img-container {*/
+/*    position: relative; !* Необходимо для позиционирования других элементов относительно .img-container *!*/
+/*}*/
+
+/*.img-container:hover img {*/
+/*    filter: brightness(100%); !* Уменьшение яркости изображения при наведении *!*/
+/*}*/
+
+/*.img-container:hover::before {*/
+/*    content: ''; !* Создание псевдоэлемента для затемнения нижней части *!*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    !*width: 25%;*!*/
+/*    height: 25%; !* Регулируйте высоту тени в зависимости от нужного эффекта *!*/
+/*    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255)); !* Градиент для создания затемнения *!*/
+/*}*/
+.img-icons img {
+    filter: invert(100%); /* Изменение цвета изображения на белый */
+}
+.img-icons {
+    visibility: hidden; /* Изначально скрываем элемент */
+    opacity: 0; /* На всякий случай делаем его прозрачным */
+    transition: visibility 0s, opacity 0.3s ease; /* Добавляем плавный переход для opacity */
+}
+
+.img-container:hover .img-icons {
+    visibility: visible; /* Показываем элемент при наведении */
+    opacity: 1; /* Делаем его непрозрачным */
+}
+
+
+
