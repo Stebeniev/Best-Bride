@@ -7,11 +7,11 @@
     scroll-behavior: smooth;
 }
 body {
-    max-width: 1440px;
+    /*max-width: 1440px;*/
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 .wrapper {
     max-width: 1440px;
