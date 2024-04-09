@@ -21,10 +21,10 @@ body {
     align-items: center;
 }
 .header-bgd {
-    width: 1440px;
+    width: 100%;
     height: 812px;
     background-image: url("assets/main-img.png");
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
 }
 header {
