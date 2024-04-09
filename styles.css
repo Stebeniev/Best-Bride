@@ -264,13 +264,21 @@ header {
     display: none;
 }
 
+/*.slider-container {*/
+/*    position: relative;*/
+/*    display: flex;*/
+
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    margin-bottom: 93.96px;*/
+/*}*/
 .slider-container {
     position: relative;
     display: flex;
-
     align-items: center;
     justify-content: center;
     margin-bottom: 93.96px;
+    width: 100%; /* Изменение ширины на 100% */
 }
 
 .slider {
