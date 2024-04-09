@@ -8,18 +8,26 @@
 }
 body {
     margin: 0;
-    /*max-width: 1440px;*/
     display: flex;
     justify-content: center;
     align-items: center;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden; /* Изменение: добавляем overflow-x: hidden; чтобы предотвратить горизонтальный скролл */
 }
+
+/*.wrapper {*/
+/*    max-width: 1440px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
 .wrapper {
+    width: 100%;
     max-width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 /*.header-bgd {*/
 /*    width: 100%;*/
 /*    height: 812px;*/
@@ -27,11 +35,18 @@ body {
 /*    background-size: cover;*/
 /*    background-position: center;*/
 /*}*/
+/*.header-bgd {*/
+/*    width: 100%;*/
+/*    height: 812px;*/
+/*    background-image: url("assets/main-img.png");*/
+/*    background-size: 100%;*/
+/*    background-position: center;*/
+/*}*/
 .header-bgd {
-    width: 100%;
+    width: 100%; /* Изменение: используем ширину в процентах */
     height: 812px;
     background-image: url("assets/main-img.png");
-    background-size: 100%;
+    background-size: cover; /* Изменение: используем cover, чтобы изображение заполняло блок */
     background-position: center;
 }
 header {
@@ -305,6 +320,7 @@ header {
 
 }
 
+
 .slider__btn-prev,
 .slider__btn-next {
     position: absolute;
@@ -357,6 +373,7 @@ header {
 .communication-container img {
     cursor: pointer;
 }
+
 .footer-line {
     display: flex;
     flex-direction: row;
