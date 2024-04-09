@@ -710,7 +710,7 @@ header {
 .img-icons {
     visibility: hidden; /* Изначально скрываем элемент */
     opacity: 0; /* На всякий случай делаем его прозрачным */
-    transition: visibility 0s, opacity 0.3s ease; /* Добавляем плавный переход для opacity */
+    transition: visibility 0s, opacity 0.35s ease; /* Добавляем плавный переход для opacity */
 }
 
 .img-container:hover .img-icons {
