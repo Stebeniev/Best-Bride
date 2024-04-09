@@ -459,7 +459,17 @@ header {
     width: 137px;
     height: 45px;
 }
-.footer-btn:hover {
+.footer-btns {
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.95px;
+    color: #412058;
+    width: 137px;
+    height: 45px;
+    background: none;
+}
+.footer-btns:hover {
     border-radius: 200px;
     border: 1px solid #0B0232;
 }
