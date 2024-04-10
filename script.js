@@ -24,3 +24,8 @@ document.addEventListener("DOMContentLoaded", function() {
   prevBtn.addEventListener('click', prevSlide);
   nextBtn.addEventListener('click', nextSlide);
 });
+
+
+
+
+
